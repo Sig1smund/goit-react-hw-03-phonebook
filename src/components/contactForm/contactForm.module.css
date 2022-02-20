@@ -1,0 +1,40 @@
+.container {
+  width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 277px;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  border-radius: 4px;
+  border: 1px solid black;
+  outline: none;
+
+  color: red;
+}
+
+.contacts__label {
+  font-style: italic;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px;
+  outline: none;
+  background-color: grey;
+  color: black;
+
+  cursor: pointer;
+
+  border-radius: 4px;
+  border: none;
+
+  font-weight: bold;
+}
+
+button:active {
+  background-color: greenyellow;
+}
